@@ -1,0 +1,34 @@
+@media (min-width: 768px) {
+  .news-item {
+    width: 50%;
+  }
+}
+
+.page-header {
+  padding-top: 55px;
+}
+
+.navbar {
+  margin: 0 auto;
+  max-width: 1296px;
+}
+
+@media (max-width: 1398px) {
+  .navbar {
+    max-width: 1116px;
+  }
+}
+
+@media (max-width: 1198px) {
+  .navbar {
+    max-width: 936px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar {
+    max-width: 967px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+}
